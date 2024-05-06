@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css?family=Croissant One");
+body {
+    font-family: Croissant One;
+    background-color:black;
+    background-image: url(images/cards.jpg);
+    background-size: cover;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    color: goldenrod;
+    
+}
+
+#message-el {
+    font-style: italic;
+}
+
+/* 
+3. Style the button according to the provided design
+text color - #016f32
+width      - 150px
+background - goldenrod
+ */
+ 
+button {
+    width:150px;
+    background-color: goldenrod;
+    color:blanchedalmond;
+    font-weight: bold;
+    border-radius:20px;
+    padding:4px;
+}
